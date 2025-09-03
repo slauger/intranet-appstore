@@ -1,0 +1,124 @@
+{
+  "title": "Acme Intranet AppStore",
+  "subtitle": "Schneller Zugriff auf interne Anwendungen",
+  "backgrounds": [
+    {
+      "name": "Fancy",
+      "file": "fancy.jpg"
+    },
+    {
+      "name": "Green",
+      "file": "green.jpg"
+    },
+    {
+      "name": "White",
+      "file": ""
+    }
+  ],
+  "defaultBackground": "Fancy",
+  "featured": [
+    "Jira",
+    "GitLab"
+  ],
+  "categories": [
+    {
+      "name": "IT & DevOps",
+      "links": [
+        {
+          "title": "Jira",
+          "url": "https://jira.example.local",
+          "icon": "fa-brands fa-jira",
+          "description": "Tickets & Boards",
+          "tags": [
+            "tickets",
+            "agile"
+          ]
+        },
+        {
+          "title": "GitLab",
+          "url": "https://gitlab.example.local",
+          "icon": "fa-brands fa-gitlab",
+          "description": "Repos & Pipelines",
+          "tags": [
+            "git",
+            "ci"
+          ]
+        },
+        {
+          "title": "Kibana",
+          "url": "https://kibana.example.local",
+          "icon": "fa-solid fa-flag",
+          "description": "Logs & Dashboards",
+          "tags": [
+            "logs",
+            "observability"
+          ]
+        },
+        {
+          "title": "Wiki",
+          "url": "https://wiki.example.local",
+          "icon": "fa-solid fa-book",
+          "description": "Dokuwiki / Confluence",
+          "tags": [
+            "docs"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HR & Company",
+      "links": [
+        {
+          "title": "Urlaubsantrag",
+          "url": "https://hr.example.local/leave",
+          "icon": "fa-regular fa-calendar-check",
+          "description": "Urlaub & Abwesenheit",
+          "tags": [
+            "urlaub"
+          ]
+        },
+        {
+          "title": "Telefonbuch",
+          "url": "https://intra.example.local/phonebook",
+          "icon": "fa-solid fa-address-book",
+          "description": "Mitarbeiterverzeichnis",
+          "tags": [
+            "kontakte"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Admin & Monitoring",
+      "links": [
+        {
+          "title": "vCenter",
+          "url": "https://vcenter.example.local",
+          "icon": "fa-solid fa-desktop",
+          "description": "VM Verwaltung",
+          "tags": [
+            "vmware"
+          ]
+        },
+        {
+          "title": "Zabbix",
+          "url": "https://zabbix.example.local",
+          "icon": "fa-solid fa-triangle-exclamation",
+          "description": "Monitoring",
+          "tags": [
+            "monitoring"
+          ]
+        },
+        {
+          "title": "Datenbank",
+          "url": "https://db.example.local",
+          "icon": "fa-solid fa-database",
+          "description": "DB Admin",
+          "tags": [
+            "database"
+          ]
+        }
+      ]
+    }
+  ]
+}
