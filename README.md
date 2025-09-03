@@ -1,12 +1,15 @@
 # Intranet AppStore
 
 A simple static **Intranet Startpage** in an AppStore look.  
+
 Built with plain HTML, TailwindCSS, Font Awesome & Lucide icons.  
+
 Configuration is fully done via JSON – no build step, no frameworks required.
 
 ![example](example.png)
 
 ## Features
+
 - 📁 Configurable via `intranet_config.json`
 - 🔎 Search bar with instant filtering
 - 🗂️ Category selection
